@@ -1,6 +1,6 @@
 # Ocelot Gateway
 
-O Ocelot é um recurso que nós permite agrupar microserviços de forma que torna-se necessário não precisar manter a URL de cada serviço em quem consome. Ele funciona como um proxy redirecionando 
+O Ocelot é um recurso que nós permite agrupar microserviços de forma que não é necessário manter a URL de cada serviço em vários locais. Ele funciona como um proxy redirecionando 
 a solicitação para o serviço adequado, além de possibilitar a utilização de balanço de carga com proxy reverso.
 
 Nesse simples projeto o serviço 2 consome o serviço 1 e obtém uma pequena listagem de pessos onde cada uma delas tem:
